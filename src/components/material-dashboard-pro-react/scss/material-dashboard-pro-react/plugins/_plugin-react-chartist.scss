@@ -1,0 +1,179 @@
+.ct-chart-white-colors .ct-grid {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+
+.ct-chart-white-colors .ct-series-a .ct-point,
+.ct-chart-white-colors .ct-series-a .ct-line,
+.ct-chart-white-colors .ct-series-a .ct-bar,
+.ct-chart-white-colors .ct-series-a .ct-slice-donut {
+  stroke: rgba(255, 255, 255, 0.8);
+}
+
+.ct-chart-white-colors .ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+
+.ct-chart-white-colors .ct-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ct-chart-line .ct-label,
+.ct-chart-bar .ct-label {
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ct-label {
+  fill: rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+
+.ct-series-a .ct-point,
+.ct-series-a .ct-line,
+.ct-series-a .ct-bar,
+.ct-series-a .ct-slice-donut,
+.ct-leyend-a {
+  stroke: $brand-info;
+  color: $brand-info;
+}
+
+.ct-series-a .ct-slice-pie,
+.ct-series-a .ct-slice-donut-solid,
+.ct-series-a .ct-area {
+  fill: $brand-info;
+}
+
+.ct-series-b .ct-point,
+.ct-series-b .ct-line,
+.ct-series-b .ct-bar,
+.ct-series-b .ct-slice-donut,
+.ct-leyend-b {
+  stroke: $green-A200;
+  color: $green-A200;
+}
+
+.ct-series-b .ct-slice-pie,
+.ct-series-b .ct-slice-donut-solid,
+.ct-series-b .ct-area {
+  fill: $green-A200;
+}
+
+.ct-series-c .ct-point,
+.ct-series-c .ct-line,
+.ct-series-c .ct-bar,
+.ct-series-c .ct-slice-donut,
+.ct-leyend-c {
+  stroke: $brand-warning;
+  color: $brand-warning;
+}
+
+.ct-series-c .ct-slice-pie,
+.ct-series-c .ct-slice-donut-solid,
+.ct-series-c .ct-area {
+  fill: $brand-warning;
+}
+
+.ct-series-d .ct-point,
+.ct-series-d .ct-line,
+.ct-series-d .ct-bar,
+.ct-series-d .ct-slice-donut,
+.ct-leyend-d {
+  stroke: $brand-primary;
+  color: $brand-primary;
+}
+
+.ct-series-d .ct-slice-pie,
+.ct-series-d .ct-slice-donut-solid,
+.ct-series-d .ct-area {
+  fill: $brand-primary;
+}
+
+.ct-series-e .ct-point,
+.ct-series-e .ct-line,
+.ct-series-e .ct-bar,
+.ct-series-e .ct-slice-donut,
+.ct-leyend-e {
+  stroke: $brand-success;
+  color: $brand-success;
+}
+
+.ct-series-e .ct-slice-pie,
+.ct-series-e .ct-slice-donut-solid,
+.ct-series-e .ct-area {
+  fill: $brand-success;
+}
+
+.ct-series-f .ct-point,
+.ct-series-f .ct-line,
+.ct-series-f .ct-bar,
+.ct-series-f .ct-slice-donut,
+.ct-leyend-f{
+  stroke: $font-background-light-grey;
+  color: $font-background-light-grey;
+}
+
+.ct-series-f .ct-slice-pie,
+.ct-series-f .ct-slice-donut-solid,
+.ct-series-f .ct-area {
+  fill: $font-background-light-grey;
+}
+
+.ct-series-g .ct-point,
+.ct-series-g .ct-line,
+.ct-series-g .ct-bar,
+.ct-series-g .ct-slice-donut,
+.ct-leyend-g {
+  stroke: $brown-400;
+  color: $brown-400;
+}
+
+.ct-series-g .ct-slice-pie,
+.ct-series-g .ct-slice-donut-solid,
+.ct-series-g .ct-area {
+  fill: $brown-400;
+}
+
+.ct-series-h .ct-point,
+.ct-series-h .ct-line,
+.ct-series-h .ct-bar,
+.ct-series-h .ct-slice-donut,
+.ct-leyend-h {
+  stroke:  #a748ca;
+  color: #a748ca;
+}
+
+.ct-series-h .ct-slice-pie,
+.ct-series-h .ct-slice-donut-solid,
+.ct-series-h .ct-area {
+  fill: #a748ca;
+}
+
+.ct-series-i .ct-point,
+.ct-series-i .ct-line,
+.ct-series-i .ct-bar,
+.ct-series-i .ct-slice-donut,
+.ct-leyend-i {
+  stroke:  $brown-600;
+  color:$brown-600;
+}
+
+.ct-series-i.ct-slice-pie,
+.ct-series-i .ct-slice-donut-solid,
+.ct-series-i .ct-area {
+  fill:$brown-600;
+}

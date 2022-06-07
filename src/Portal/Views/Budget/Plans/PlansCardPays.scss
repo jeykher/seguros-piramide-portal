@@ -1,0 +1,18 @@
+#demo-simple-select-label {
+    font-size: 14px !important
+};
+
+label + .MuiInput-formControl {
+    margin-top: 12px !important;
+}
+.container-selects-clinica {
+    .MuiSelect-select.MuiSelect-select{
+        padding: 2px 0 7px;
+        font-size: 13px !important;
+    }
+}
+
+.typeofclinicsselect {
+    font-weight: bold;
+    color: black;
+}

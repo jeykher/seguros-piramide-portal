@@ -1,0 +1,21 @@
+.slick-slide > div:first-child {
+    padding: 5px !important;
+}
+button.slick-arrow.slick-prev{
+    left: -2% !important;
+    width: 3%;
+}
+button.slick-arrow.slick-next {
+    right: -3% !important;
+    width: 3%;
+}
+.slick-prev::before { 
+    background: url("../../../../static/carousel-left.svg") no-repeat 0 0;
+    content: "";
+    height: 40px;
+}
+.slick-next::before { 
+    background: url("../../../../static/carousel-right.svg") no-repeat 0 0;
+    content: "";
+    height: 40px;
+}
